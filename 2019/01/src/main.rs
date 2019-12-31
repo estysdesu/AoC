@@ -2,7 +2,7 @@ use std::fs;
 
 fn main() {
     let filename = "./input.txt";
-    let contents = fs::read_to_string(&filename).expect("error reading file.");
+    let contents = fs::read_to_string(&filename).expect("error reading file");
     let lines = contents.lines();
 
     let mut total_fuel: u32 = 0;

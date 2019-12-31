@@ -21,7 +21,7 @@ fn main() {
 }
 
 fn process_input(filename: &str) -> Vec<u32> {
-    let contents = fs::read_to_string(filename).expect("error reading file.");
+    let contents = fs::read_to_string(filename).expect("error reading file");
     let content_vec: Vec<u32> = contents
         .split(",")
         .map(|m| m.parse().expect("error parsing str to int"))

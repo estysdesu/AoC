@@ -15,3 +15,7 @@
 * Vectors
 * Library (refactored intcode out to a library)
 * Pass by reference (modify external variable inside a function)
+
+#### [2019/03]()
+* Manhattan distance
+* Hash map
